@@ -1,0 +1,848 @@
+
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.homepage{
+    
+    background-image: url(nm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*body*/
+body{
+height: fit-content;
+position: relative;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment:fixed; 
+padding: 0% 0%;
+}
+
+
+
+/*navigation bar*/
+    .logo
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(10, 3, 59, 0.326);
+    backdrop-filter: 10px;
+    color:white;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+ 
+
+li
+{
+display: inline;
+
+}
+
+li a
+{
+  text-decoration: none;
+  font-size:18px;
+  color: white;
+  padding: 7px;
+  transition: font-size,.2s;
+}
+
+nav
+{
+  float: right;
+  position:relative;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+li a:hover
+{
+  font-size: 19px;
+  transition:.2s ;
+  background-color: #042034;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.name{
+    padding: 50px 20px;
+    text-align: justify;
+    font-size: 45px;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(11, 2, 69), 0 0 5px rgb(38, 2, 81);
+    font-variant: small-caps;
+    padding-top: 180px;
+    padding-left: 130px;
+    position: relative;
+    letter-spacing: 10px;
+    padding-bottom: 5px;
+
+}
+.name1{
+    padding: 5px;
+    text-align: justify;
+    font-size: 40px;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(11, 2, 69), 0 0 5px rgb(38, 2, 81);
+    font-variant: small-caps;
+    position: absolute;
+    left:20px;
+    letter-spacing: 5px;
+}
+
+.name2{
+    padding: 40px;
+    padding-top: 70px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: silver;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(11, 2, 69), 0 0 5px rgb(38, 2, 81);
+
+}
+.btn
+{
+    display: inline-block;
+    background-color:rgb(7, 51, 71);
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(70, 50, 201), 0 0 5px rgb(247, 244, 250);
+    font-size: 25px;
+    padding: 14px 20px;
+    margin:50px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-left: 170px;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+
+ /*New arrival
+ .new
+ {
+     background: linear-gradient(#aec6cf,#778ba5 ,#aec6cf );
+     border-width: 5px;
+ }
+ .newh2
+ {
+     display: inline-block;
+     font-size: 50px;
+     font-weight: bold;
+     text-shadow: 1px 1px 2px black, 0 0 25px rgb(11, 2, 69), 0 0 5px rgb(38, 2, 81);
+     color:#ffffff;
+     padding:20px 20px;
+    
+ }
+ 
+ .container{
+     width: 90%;
+     padding:10px;
+     margin:10px auto;	 
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+ }
+ 
+ 
+ .box{
+     width: 250px;
+     margin: 0 10px;
+     box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+     transition: 1s;
+ 
+ }
+ .box img{
+     display: block;
+     width:100%;
+     border-radius: 5px;
+ }
+ .box:hover{
+     transform: scale(1.3);
+     z-index: 2;
+ }*/
+
+
+ /*products
+ .bac-2{
+    background-image: url(2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.products{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    width: 300px;
+
+}
+.card-image img{
+    width: 100%;
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+*/
+/*product*/
+.pro
+{
+    text-align: center;
+    padding: 50px;
+    font-family:inherit;
+    font-weight: bold;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 2), 0 0 5px rgb(55, 3, 107);
+    font-size: 32px;
+    letter-spacing: 15px;
+    
+    
+  }
+.products-back
+{
+    background-image: url(23.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: block;
+}
+.products{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+
+   border: 2px solid black;
+   margin: 35px;
+   margin-left: 50px;
+   margin-right: 60px;
+   margin-top: 5px;
+   margin-bottom: 30px;
+   background-color: rgb(181, 201, 203);
+   backdrop-filter: blur(5px);
+   border-radius: 25px;
+   
+}
+
+
+.cards img{
+    width: 300px;
+    height: 340px;
+    padding: 10px;
+    padding-bottom: 8px;
+    border-radius:10px;
+    
+}
+.cards-image .card-body
+{
+   justify-content: center;
+   
+}
+.card-body{
+    font-size:20px;
+    padding-left: 30px;
+    color: rgb(0, 2, 4);
+   
+
+}
+.card-image h2{
+ 
+   font-size:22px;
+   padding-left: 15px;
+   padding: 13px;
+   color: rgb(0, 2, 4);
+   font-weight: bold;
+   
+}
+.card-body button
+{
+    color: rgb(250, 250, 250);
+    text-shadow: 1px 1px 1px black, 0 0 25px rgb(9, 9, 81), 0 0 rgb(19, 22, 99);
+    font-size: 20px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 210px;
+    background-color:#96EFFF;
+    font-weight: bold;
+    transition: font-size,.2s;
+   
+    
+}
+.card-body button:hover
+{
+    font-size: 22px;
+    transition: .2s;
+}
+/*footer*/
+.foot{
+    background-color:#001524;
+  color: rgb(240, 242, 255);
+  padding: 10px 5px;
+  text-align: center;
+  
+  }
+  .icon{
+    display: block;
+    padding: 5px;
+    gap: 60px;
+    font-size: 30px;
+  }
+  .icon li{
+    gap: 50px;
+  
+  }
+  .last{
+    display: flex;
+  }
+  .firstone{
+    display: block;
+    width: 100%;
+    font-size:  15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  
+  .firstone h1{
+    font-family:cursive;
+  }
+  .coppy{
+    font-size:20px;
+    font-weight: bold;
+    background-color:#96EFFF;
+    letter-spacing: 3px;
+    color:#042034;
+    text-shadow: 3px 0.5px 0.5px black, 0 0 25px rgb(11, 2, 69), 0 0 5px rgb(38, 2, 81);
+
+    padding: 5px;
+    margin-bottom: 15px;
+  
+  }
+  /*...........................................................................................................................................................
+  next page
+  ......................................................................................................................................................*/
+  /*contact us page*/
+  .contact-con
+  {
+    display: flex;
+  }
+  .contact{
+    position: relative;
+    padding: 150px 100px;
+    display: flex;
+    flex-direction: column;
+    background: url(nm.jpg);
+    background-size: cover;
+
+  }
+  .contact{
+ 
+  padding: 50px;
+ 
+  }
+ .content
+ {
+  font-size: 36px;
+  font-weight: 500;
+  color: aliceblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(11, 2, 69), 0 0 5px rgb(38, 2, 81);
+  font-weight: bold;
+  padding-left: 250px;
+  letter-spacing: 5px;
+ }
+ .container-1
+ {
+  display: block;
+  border: 5px ;
+  background-color: #1E7678;
+  padding: 100px 50px;
+  font-size: 20px;
+  color: #ffffff;
+ margin: 10px;
+ 
+
+ }
+ .container-1 p{
+
+text-decoration: none;
+ }
+.container-1 h4{
+font-size: 25px;
+color: #ffffff;
+text-shadow: 1px 1px 2px black, 0 0 25px rgb(11, 2, 69), 0 0 5px rgb(38, 2, 81);
+
+ }
+
+ 
+ .container-1 h4 i{
+  padding: 8px;
+  border:2px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  color: #001524;
+  text-shadow:none;
+ }
+ .yyyy i
+ {
+  font-size: 30px;
+  padding: 8px;
+  border:2px solid rgb(0, 0, 0);
+  border-radius: 30%;
+  background-color: #f8f8f8;
+  color: #001524;
+  gap: 15px;
+ }
+ .cont{
+  position: relative;
+
+ }
+ .xxxxx
+ {
+  display: flex;
+  margin: 50px;
+  margin-left: 0%;
+  
+ }
+ .magnet
+ {
+  margin: 10px;
+  margin-top: 50px;
+  
+ }
+ form
+ {
+  border: 5px;
+  pad: 10px;
+  background-color:silver;
+  color: #001524;
+  vertical-align: middle;
+  padding: 40px;
+ }
+ form:h2
+{
+  font-size:30px ;
+  color:#ffffff ;
+  font-weight: 500;
+
+}
+.contact-form .inputbox
+{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+form .inputbox input{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #692e2e;
+  outline: none;
+  resize: none;
+}
+form .inputbox span{
+ 
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #270f0f;
+
+}
+form .inputbox input:focus~span,
+form .inputbox input:valid~span
+form .inputbox textarea:focus~span,
+form .inputbox textarea:focus~span
+{
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+form .inputbox input[type="submit"]
+{
+  width: 100px;
+  background: #1E7678;
+  text-shadow: 3px 1px 3px black, 0 0 25px rgb(9, 9, 81), 0 0 rgb(19, 22, 99);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+.one{
+  text-align: left;
+}
+
+/*...........................................................................................................................................................
+  next page
+  ......................................................................................................................................................*/
+  /*cute products*/
+  .anykey{
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    font-weight: bold;
+  }
+  .anykey h5{
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 3px 1px 3px black, 0 0 25px rgb(9, 9, 81), 0 0 rgb(19, 22, 99);
+  }
+  .anykeyh6{
+    font-size: 30px;
+    color: #fff;
+    background-color: #001524;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .anykeyh7{
+    font-size: 30px;
+    color: #fff;
+    background-color: #001524;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+/*---------------------------------*/
+  .pro1
+{
+    text-align: center;
+    padding: 50px;
+    font-family:inherit;
+    font-weight: bold;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 2), 0 0 5px rgb(55, 3, 107);
+    font-size: 35px;
+    letter-spacing: 15px;
+    
+    
+  }
+
+.products1{
+    display: flex;
+    justify-content: center;
+}
+.cards1{
+
+   border: 2px solid black;
+   margin: 40px;
+   margin-top: 15px;
+   background-color: rgb(181, 201, 203);
+   backdrop-filter: blur(5px);
+   border-radius: 25px;
+   
+}
+
+.cards1 img{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+    width: 300px;
+    height: 330px;
+    padding: 15px;
+    padding-bottom: 15px;
+    border-radius:10px;
+    
+}
+.cards-image1 .card-body
+{
+   justify-content: center;
+   
+}
+.card-body1{
+    font-size:20px;
+    padding-left: 30px;
+    color: rgb(0, 2, 4);
+   
+
+}
+.card-image1 h2{
+ 
+   font-size:28px;
+   padding-left: 10px;
+   padding: 9px;
+   color: rgb(0, 2, 4);
+   font-weight: bolder;
+   
+}
+
+.card-body1 button
+{
+    color: rgb(250, 250, 250);
+    text-shadow: 1px 1px 1px black, 0 0 25px rgb(9, 9, 81), 0 0 rgb(19, 22, 99);
+    font-size: 25px;
+    padding: 8px;
+    margin: 12px;
+    border-radius: 20px;
+    width: 250px;
+    background-color:#96EFFF;
+    font-weight: bold;
+    transition: font-size,.2s;
+    text-align: center;
+    
+}
+.card-body1 button:hover
+{
+    font-size: 22px;
+    transition: .2s;
+}
+/*about us*/
+
+.aboutfull
+{
+  background-image: url(nm.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  position: relative;
+}
+
+.about1
+{
+font-size:10px;
+text-align: justify;
+padding: 15px;
+color: #fff;
+text-shadow: 1px 1px 1px black, 0 0 25px rgb(9, 9, 81), 0 0 rgb(19, 22, 99);
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: #1E7678;
+width: 680px;
+position:absolute;
+padding: 30px;
+margin-left:90px;
+margin-top: 50px;
+border: 2px solid black;
+
+}
+.about2
+{
+  padding-top: 350px;
+  display: flex;
+}
+.about2 h1{
+  font-size: 40px;
+  color:#042034;
+  text-shadow: 2px 1px 0.5px black, 0 0 25px rgb(68, 68, 125), 0 0 rgb(230, 230, 234);
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.about2 p{
+  padding-top: 15px;
+font-size: 20px;
+color: #043030;
+text-align: justify;
+
+}
+.aboutsub{
+  background-color: #aec6cf;
+ margin: 20px;
+  width:300px ;
+  margin-bottom: 100px;
+  padding: 20px;
+  border: 2px solid black;
+  text-align: center;
+
+}
+
+/*........................................................................*/
+
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+img{
+  width: 100%;
+  height:100% ;
+}
+.comment-box,.comment-list{
+
+  background: #034545;
+  color: #f8f8f8;
+  Text-shadow: 2px 1px 0.5px black, 0 0 25px rgb(68, 68, 125), 0 0 rgb(230, 230, 234);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px black;
+}
+
+
+.comment-session{
+  width: 650px;
+  height: auto;
+  margin: 0 auto;
+  
+
+
+}
+.comment-list{
+  width: 100%;
+  margin-bottom: 12px;
+  padding-right: 8px;
+
+
+}
+.comment-list .user{
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+
+}
+.comment-list .user img{
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  margin-right: 10px;
+
+}
+.comment-list .name{
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+.comment-list .day{
+  font-size: 12px;
+
+}
+.reply{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  gap:10px;
+
+}
+.reply.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  height: 24px;
+  color: #777;
+  gap:10px;
+
+}
+.reply.icon:hover{
+  color: black;
+  cursor: pointer;
+
+
+}
+.post-comment .comment{
+  padding: 0 0 15px 58px;
+
+}
+.comment-box{
+  padding: 10px;
+  overflow: hidden;
+
+}
+.comment-box .user{
+  display: flex;
+  width: min-content;
+}
+.comment-box .image img{
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border-radius: 50%;
+
+}
+.comment-box textarea{
+  background: #aec6cf;
+  width:610px;
+  height: 152px;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 0 0.5px black;
+  
+}
+.comment-box textarea:focus{
+  outline-color: #009cff;
+}
+.comment-box .comment-submit{
+  float: right;
+  padding: 6px 14px;
+  border: none;
+  background-color: #009cff;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+
+}
+.comment-box .comment-submit:hover{
+  background-color: aqua;
+
+}
+.left{
+margin-left: 5px;
+}
+
+.last-comment{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
+  
+
+}
+.comment-pic{
+  width: 220px;
+  height:400px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 8px;
+  margin-bottom: 25px;
+  align-items: center;
+  justify-content: center;
+  gap:30px;
+  background-image: url(23.jpg) ;
+  padding: 20px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px 1px black ;
+  transition: 1s;
+}
+.comment-pic:hover{
+  transform: scale(1.3);
+     z-index: 2;
+
+}
+.wapp{
+  text-align: center;
+  font-size: 35px;
+  color:white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 0, 2), 0 0 5px rgb(55, 3, 107);
+  letter-spacing: 3px;
+  padding: 30px;
+
+
+}
